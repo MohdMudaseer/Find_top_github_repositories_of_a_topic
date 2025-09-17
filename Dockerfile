@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 # run the application
-CMD ["python", "wsgi.py"]
+CMD ["python", "app.py"]
